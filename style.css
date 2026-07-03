@@ -908,13 +908,22 @@ footer {
         top: 80px;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 200px);
+        height: calc(100vh - 100px);
         background-color: var(--white);
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transition: var(--transition);
+    } 
+
+    .hero {
+        height: 120vh;
+        display: flex;
+        align-items: center;
+        padding-top: 0px;
+        background-color: var(--light-color);
     }
+
     .hero-text h1 {
         font-size: 2.2rem;
     }
