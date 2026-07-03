@@ -902,12 +902,29 @@ footer {
 }
 
 @media (max-width: 576px) {
+
+    .nav-links {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 200px);
+        background-color: var(--white);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+    }
     .hero-text h1 {
         font-size: 2.2rem;
     }
 
     .hero-text h2 {
         font-size: 1.5rem;
+    }
+
+    .hero-content {
+        margin-top: 50%;
     }
 
     .hero-btns {
